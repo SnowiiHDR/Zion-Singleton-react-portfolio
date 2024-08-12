@@ -72,4 +72,5 @@ I am working with a project team consisting of students and industry associates 
 export const CONTACT = {
   phoneNo: "",
   email: "zscsingleton@gmail.com",
+  resume: "Resume",
 };
