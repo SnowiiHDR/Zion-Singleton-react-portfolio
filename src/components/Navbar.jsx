@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <a href="https://docs.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing">
+        <a href="">
           <img className="mx-2 w-10" src={logo} alt="logo" />
         </a>
       </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <a href="mailto:zscsingleton@gmail.com">
           <FaEnvelope />
         </a>
-        <a href="">
+        <a href="https://docs.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing">
           <IoIosPaper />
         </a>
       </div>
