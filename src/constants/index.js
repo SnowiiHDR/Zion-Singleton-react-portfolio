@@ -9,67 +9,67 @@ export const ABOUT_TEXT = `I am a versatile Computer Scientist with skills in fu
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "April 2024 - Present",
+    role: "Events Director and Team Programmer",
+    company: "Development in Games Association @ Cornell",
+    description: `I coordinated and managed all student events including trips and activities hosted by the DGA. I also enhanced my artistic and technical skills by working with the promotion and communications teams. I helped 
+develop a game using Unity and C# as part of the project team. (one-year development timeline)
+We had weekly meetings to discuss progress, project scope, and game direction.
+`,
+    technologies: ["C#", "Unity"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Summer 2024",
+    role: "Member/Intern",
+    company: "CSMore @ Cornell",
+    description: `I acquired proficiency in basic computer tools such as SSH and Git. I also began studies in Discrete Structures, Data Structures, and Computer System Organization (Hardware). 
+I got familiar with OCaml and C. I learned functions in both languages, including recursive ones.
+`,
+    technologies: ["Java", "C", "OCaml"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "August 2023 - Present",
+    role: "Member",
+    company: "Ascend | Bowers CIS",
+    description: `I was a selected participant in a competitive two-year exploratory program aimed at facilitating the transition of incoming freshmen into academia and tech careers.
+I am working with a project team consisting of students and industry associates to create a program capable of helping people find jobs.
+`,
+    technologies: ["Python", "Java"],
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+// export const PROJECTS = [
+//   {
+//     title: "E-Commerce Website",
+//     image: project1,
+//     description:
+//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+//   },
+//   {
+//     title: "Task Management App",
+//     image: project2,
+//     description:
+//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+//   },
+//   {
+//     title: "Portfolio Website",
+//     image: project3,
+//     description:
+//       "A personal portfolio website showcasing projects, skills, and contact information.",
+//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+//   },
+//   {
+//     title: "Blogging Platform",
+//     image: project4,
+//     description:
+//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+//   },
+// ];
 
 export const CONTACT = {
-  phoneNo: "+1 (914)-258-8259",
+  phoneNo: "",
   email: "zscsingleton@gmail.com",
 };
