@@ -7,7 +7,6 @@ import { FaHtml5 } from "react-icons/fa";
 import { SiOcaml } from "react-icons/si";
 import { SiCsharp } from "react-icons/si";
 import { FaUnity } from "react-icons/fa6";
-import { SiGodotengine } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -96,14 +95,7 @@ const Technologies = () => {
         >
           <SiCsharp className="text-7xl text-purple-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(2.25)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiGodotengine className="text-7xl text-cyan-400" />
-        </motion.div>
+        
         <motion.div
           variants={iconVariants(1.25)}
           initial="initial"

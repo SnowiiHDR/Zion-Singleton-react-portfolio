@@ -32,13 +32,13 @@ const Hero = () => {
               className="bg-gradient-to-r from-purple-500 via-teal-200
              to-green-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Computer Science | Game Design
+              Computer Science | Operations Research
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter  lg:text-4xl"
             >
               {HERO_CONTENT}
             </motion.p>
