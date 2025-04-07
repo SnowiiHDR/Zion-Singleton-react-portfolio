@@ -45,7 +45,7 @@ I got familiar with OCaml and C. I learned functions in both languages.
     description: `I was a selected participant in a competitive two-year exploratory program aimed at facilitating the transition of incoming freshmen into academia and tech careers.
 I am working with a project team consisting of students and industry associates to create a program capable of helping people find jobs.
 `,
-    technologies: ["Python", "Java"],
+    technologies: ["Python", "React", "Node.js"],
   },
 ];
 
