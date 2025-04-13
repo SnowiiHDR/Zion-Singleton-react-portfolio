@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">
-        <span className="text-purple-300"> About </span>
-        <span className="text-indigo-200"> Me </span>
+        <span className="text-white-300"> About </span>
+        <span className="text-white-300"> Me </span>
       </h1>
       <div className="flex flex-wrap">
         <motion.div

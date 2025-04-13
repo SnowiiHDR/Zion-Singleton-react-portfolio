@@ -3,9 +3,10 @@ import profilePic from "../assets/outside.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
-  hidden: { x: -1000, opacity: 0 },
+  hidden: { x: -1000,y: 1000, opacity: 0 },
   visible: {
     x: 0,
+    y: 0,
     opacity: 1,
     transition: { duration: 1, delay: delay },
   },

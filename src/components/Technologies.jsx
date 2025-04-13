@@ -8,6 +8,8 @@ import { SiOcaml } from "react-icons/si";
 import { SiCsharp } from "react-icons/si";
 import { FaUnity } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import { FaReact } from "react-icons/fa";
+
 
 const iconVariants = (duration) => ({
   intial: { y: -10 },
@@ -43,10 +45,11 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaPython className="text-7xl text-yellow-300" />
+          <FaReact className="text-7xl text-blue-400" />
         </motion.div>
+        
         <motion.div
           variants={iconVariants(3.5)}
           initial="initial"
@@ -96,13 +99,14 @@ const Technologies = () => {
           <SiCsharp className="text-7xl text-purple-500" />
         </motion.div>
         
+        
         <motion.div
           variants={iconVariants(1.25)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
         >
-          <IoLogoJavascript className="text-7xl text-yellow-400" />
+          <FaPython className="text-7xl text-yellow-300" />
         </motion.div>
       </motion.div>
     </div>

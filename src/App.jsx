@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import GeometricBackground from "./components/background";
 import { motion } from "framer-motion";
@@ -12,6 +13,7 @@ const App = () => {
 
   return (
     <> 
+    <GeometricBackground />
     <div
       className="overflow-x-hidden text-neutral-300 antialiased selection:
     selection:bg-cyan-300 selection:text-cyan-900"
@@ -28,6 +30,7 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
+        <Projects />
         <Contact />
       </div>
     </div>
