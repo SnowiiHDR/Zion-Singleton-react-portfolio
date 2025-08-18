@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaPython } from "react-icons/fa";
+import { FaDocker, FaPython, FaRust } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
@@ -9,6 +9,9 @@ import { SiCsharp } from "react-icons/si";
 import { FaUnity } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { FaReact } from "react-icons/fa";
+import { DiRust } from "react-icons/di";
+import { GrKubernetes } from "react-icons/gr";
+import { AiOutlineKubernetes } from "react-icons/ai";
 
 
 const iconVariants = (duration) => ({
@@ -35,12 +38,32 @@ const Technologies = () => {
         Languages and Engines
       </motion.h1>
 
+     
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
+
+        <motion.div
+          variants={iconVariants(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <FaRust className="text-7xl text-[#CE412B]" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(1.25)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <FaPython className="text-7xl text-yellow-300" />
+        </motion.div>
+
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
@@ -64,7 +87,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaCss3Alt className="text-7xl text-blue-500" />
+          <FaDocker className="text-7xl text-blue-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -72,7 +95,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaHtml5 className="text-7xl text-orange-400" />
+          <AiOutlineKubernetes className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.75)}
@@ -100,14 +123,7 @@ const Technologies = () => {
         </motion.div>
         
         
-        <motion.div
-          variants={iconVariants(1.25)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <FaPython className="text-7xl text-yellow-300" />
-        </motion.div>
+        
       </motion.div>
     </div>
   );

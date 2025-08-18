@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <a href="">
-          <img className="mx-2 w-10" src={logo} alt="logo" />
+          <img className="mx-2 w-14" src={logo} alt="logo" />
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
@@ -22,7 +22,8 @@ const Navbar = () => {
         <a href="mailto:zscsingleton@gmail.com">
           <FaEnvelope />
         </a>
-        <a href="https://docs.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing">
+        <a href="https://docs.google.com/document/d/1xIOQioq7mC7_mXfTgVRqX1pHp7td-SavILq-6EGaGr4/edit?usp=sharings.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing"
+>
           <IoIosPaper />
         </a>
       </div>
