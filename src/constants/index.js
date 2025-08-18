@@ -16,9 +16,9 @@ Some of my interests include playing video games and social deduction games. I a
 export const EXPERIENCES = [
   
     {
-    year: "April 2024 - Present",
-    role: "Program Lead, designer, and Events Director",
-    company: "Development in Games Association @ Cornell",
+    year: "June 2025 - Present",
+    role: "Software Engineering Intern",
+    company: "Paramount Global (Skydance)",
     description: `Over the summer, I was able to work as a software engineering intern with the Paramount CBS Streaming team. 
     Throughout the experience, I learned various cloud computing technologies within AWS as well as Kubernetes. I have been granted an extension at
     the company until October. I am currently working on an internal structure to be used by other members on my team.
