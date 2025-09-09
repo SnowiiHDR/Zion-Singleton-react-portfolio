@@ -27,7 +27,7 @@ export const EXPERIENCES = [
   },
   {
     year: "April 2024 - Present",
-    role: "Program Lead, designer, and Events Director",
+    role: "Programming Lead, designer, and Events Director",
     company: "Development in Games Association @ Cornell",
     description: `I am now the current programming lead for Development in Game Association Studios. This means I lead the development of architecture and programming desgin in our now work-in-progress game.
     In years past, I coordinated and managed all student events including trips and activities hosted by the DGA. I also enhanced my artistic and technical skills by working with the promotion and communications teams. I helped 
@@ -70,7 +70,7 @@ I am working with a project team consisting of students and industry associates 
 export const PROJECTS = [
   {
     title: "Deadalus",
-    image: cover1,
+    type: "embed",
     description: " Tower Defense Survival Horror game. Player’s popular choice of over 400 votes at GDIAC showcase 2025.",
     technologies: ["Game Design", "Java"],
   },
