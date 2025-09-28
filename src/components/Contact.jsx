@@ -13,12 +13,6 @@ const Contact = () => {
         Contact
       </motion.h2>
       <div className="text-center tracking-tighter">
-        <a
-          href="https://docs.google.com/document/d/1xIOQioq7mC7_mXfTgVRqX1pHp7td-SavILq-6EGaGr4/edit?usp=sharings.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing"
-          className="border-b"
-        >
-          {CONTACT.resume}
-        </a>
       </div>
       <div className="text-center tracking-tighter">
         <a href="mailto:zscsingleton@gmail.com" className="border-b">

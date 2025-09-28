@@ -22,10 +22,6 @@ const Navbar = () => {
         <a href="mailto:zscsingleton@gmail.com">
           <FaEnvelope />
         </a>
-        <a href="https://docs.google.com/document/d/1xIOQioq7mC7_mXfTgVRqX1pHp7td-SavILq-6EGaGr4/edit?usp=sharings.google.com/document/d/1lY79fq5f3ojn4Cg52fCvd83u7bz5oNEnfFzrEsUJLS0/edit?usp=sharing"
->
-          <IoIosPaper />
-        </a>
       </div>
     </nav>
   );
