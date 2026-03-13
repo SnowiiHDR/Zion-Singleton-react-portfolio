@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     year: "April 2024 - Present",
     role: "Programming Lead, designer, and Events Director",
     company: "Development in Games Association @ Cornell",
-    description: `I am now the current programming lead for Development in Game Association Studios. This means I lead the development of architecture and programming desgin in our now work-in-progress game.
+    description: `I am now the current programming lead for Development in Game Association Studios. This means I lead the development of architecture and programming design in our now work-in-progress game.
     In years past, I coordinated and managed all student events including trips and activities hosted by the DGA. I also enhanced my artistic and technical skills by working with the promotion and communications teams. I helped 
 develop a game using Unity and C# as part of the project team. (one-year development timeline)
 We had weekly meetings to discuss progress, project scope, and game direction.
